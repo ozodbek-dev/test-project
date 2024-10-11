@@ -1,0 +1,45 @@
+#daily-discounts .left-header {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+#daily-discounts{
+	width: 100%;
+  min-height: 100vh;
+}
+#daily-discounts .left-header h1 {
+	color: #023131;
+	font-size: 44px;
+	font-weight: 700;
+	line-height: 50.6px;
+	text-align: left;
+}
+#daily-discounts .left-header h3 {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 22.4px;
+	text-align: left;
+	color: #607282;
+}
+#daily-discounts .left-content {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 1rem;
+	margin: 2rem 0;
+}
+
+
+@media screen and (max-width: 768px) {
+	#daily-discounts .left-content {
+		max-width: 100%;
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+				gap: 0.3rem;
+	}
+}
+@media screen and (max-width: 520px) {
+	#daily-discounts .left-content {
+		grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+				gap: 0.3rem;
+	}
+}

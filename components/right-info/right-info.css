@@ -1,0 +1,37 @@
+.right-info {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.right-info > h1 {
+	color: #023131;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 32.4px;
+	text-align: left;
+}
+.right-info > h3 {
+	color: #023131;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 27px;
+	text-align: left;
+}
+
+.right-info > p {
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 25.5px;
+	text-align: left;
+	color: #3c5858;
+}
+
+.right-info > h2{
+font-size: 17px;
+font-weight: 400;
+line-height: 25.5px;
+text-align: left;
+color:#607282;
+
+}

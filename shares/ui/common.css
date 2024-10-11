@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	text-decoration: none;
+	list-style: none;
+  background-color: inherit;
+}
+
+html,
+body {
+	font-family: "Play", sans-serif;
+}
+
+.container {
+	padding: 0 2rem;
+	max-width: 1300px;
+	width: 100%;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.items-between{
+  align-items: space-between;
+}
+
+
+.gap-1{
+  gap: 0.5rem;
+}
+.gap-2{
+  gap: 1rem;
+}
+.gap-3{
+  gap: 1.5rem;
+}
+.gap-4{
+  gap: 2rem;
+}
